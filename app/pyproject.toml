@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "esun-ocr-competition"
+version = "0.1.0"
+description = ""
+authors = ["author <author@email>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.3"
+opencv-python-headless = "^4.5.2"
+onnx = "^1.9.0"
+onnxruntime = "^1.7.0"
+loguru = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
